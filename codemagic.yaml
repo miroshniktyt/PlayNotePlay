@@ -8,9 +8,9 @@ workflows:
         environment:
             ios_signing:
                distribution_type: app_store
-               bundle_identifier: codemagic.yaml
+               bundle_identifier: com.richarddumontpierre.play
             vars:
-              BUNDLE_ID: codemagic.yaml
+              BUNDLE_ID: com.richarddumontpierre.play
               XCODE_PROJECT: "PlayNotePlay.xcodeproj"
               XCODE_SCHEME: "PlayNotePlay"
               APP_STORE_APPLE_ID: 6749694449
