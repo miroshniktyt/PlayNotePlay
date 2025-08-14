@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4F02B6F82E40CFC6008C953B"
-               BuildableName = "PlayNotePlay.app"
-               BlueprintName = "PlayNotePlay"
-               ReferencedContainer = "container:PlayNotePlay.xcodeproj">
+               BuildableName = "PlayXFlash.app"
+               BlueprintName = "PlayXFlash"
+               ReferencedContainer = "container:PlayXFlash.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4F02B6F82E40CFC6008C953B"
-            BuildableName = "PlayNotePlay.app"
-            BlueprintName = "PlayNotePlay"
-            ReferencedContainer = "container:PlayNotePlay.xcodeproj">
+            BuildableName = "PlayXFlash.app"
+            BlueprintName = "PlayXFlash"
+            ReferencedContainer = "container:PlayXFlash.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4F02B6F82E40CFC6008C953B"
-            BuildableName = "PlayNotePlay.app"
-            BlueprintName = "PlayNotePlay"
-            ReferencedContainer = "container:PlayNotePlay.xcodeproj">
+            BuildableName = "PlayXFlash.app"
+            BlueprintName = "PlayXFlash"
+            ReferencedContainer = "container:PlayXFlash.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

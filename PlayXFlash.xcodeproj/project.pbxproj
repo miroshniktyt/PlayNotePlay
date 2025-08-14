@@ -19,10 +19,23 @@
 		4F02B8E32E44CB41008C953B /* ChallengeHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F02B8E02E44CB41008C953B /* ChallengeHelpView.swift */; };
 		4F02B9062E44CF0A008C953B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F02B9052E44CF0A008C953B /* Media.xcassets */; };
 		4F02B9082E44D1EE008C953B /* LevelConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F02B9072E44D1EE008C953B /* LevelConfiguration.swift */; };
+		4F3365032E4DEF72000430B0 /* vv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3365022E4DEF72000430B0 /* vv.swift */; };
+		4F3365062E4DEFD7000430B0 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 4F3365052E4DEFD7000430B0 /* AppsFlyerLib-Static */; };
+		4FDB89972E4E4153007BD530 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB89962E4E4153007BD530 /* FirebaseAnalytics */; };
+		4FDB89992E4E4153007BD530 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB89982E4E4153007BD530 /* FirebaseAnalyticsCore */; };
+		4FDB899B2E4E4153007BD530 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB899A2E4E4153007BD530 /* FirebaseCore */; };
+		4FDB899D2E4E4153007BD530 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB899C2E4E4153007BD530 /* FirebaseCrashlytics */; };
+		4FDB899F2E4E4153007BD530 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB899E2E4E4153007BD530 /* FirebaseInAppMessaging-Beta */; };
+		4FDB89A12E4E4153007BD530 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB89A02E4E4153007BD530 /* FirebaseMessaging */; };
+		4FDB89A42E4E416A007BD530 /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB89A32E4E416A007BD530 /* SVGKit */; };
+		4FDB89A62E4E416A007BD530 /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB89A52E4E416A007BD530 /* SVGKitSwift */; };
+		4FDB89A92E4E4189007BD530 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 4FDB89A82E4E4189007BD530 /* GoogleMobileAds */; };
+		4FDB89AE2E4E4422007BD530 /* icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB89AD2E4E4422007BD530 /* icon.svg */; };
+		4FDB89E12E4E485B007BD530 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB89E02E4E485B007BD530 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F02B6F92E40CFC6008C953B /* PlayNotePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayNotePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F02B6F92E40CFC6008C953B /* PlayXFlash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayXFlash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F02B87A2E425F9C008C953B /* app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app.swift; sourceTree = "<group>"; };
 		4F02B87C2E437E14008C953B /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
 		4F02B87E2E437E21008C953B /* ChordMatchGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordMatchGame.swift; sourceTree = "<group>"; };
@@ -35,6 +48,11 @@
 		4F02B8E12E44CB41008C953B /* LevelsHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsHelpView.swift; sourceTree = "<group>"; };
 		4F02B9052E44CF0A008C953B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		4F02B9072E44D1EE008C953B /* LevelConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelConfiguration.swift; sourceTree = "<group>"; };
+		4F3365022E4DEF72000430B0 /* vv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vv.swift; sourceTree = "<group>"; };
+		4FDB89AA2E4E41A2007BD530 /* PlayNotePlay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlayNotePlay.entitlements; sourceTree = "<group>"; };
+		4FDB89AB2E4E41A7007BD530 /* PlayXFlash-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayXFlash-Info.plist"; sourceTree = "<group>"; };
+		4FDB89AD2E4E4422007BD530 /* icon.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = icon.svg; sourceTree = "<group>"; };
+		4FDB89E02E4E485B007BD530 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +60,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDB89972E4E4153007BD530 /* FirebaseAnalytics in Frameworks */,
+				4FDB89992E4E4153007BD530 /* FirebaseAnalyticsCore in Frameworks */,
+				4FDB89A92E4E4189007BD530 /* GoogleMobileAds in Frameworks */,
+				4FDB89A12E4E4153007BD530 /* FirebaseMessaging in Frameworks */,
+				4FDB89A62E4E416A007BD530 /* SVGKitSwift in Frameworks */,
+				4FDB899D2E4E4153007BD530 /* FirebaseCrashlytics in Frameworks */,
+				4FDB899B2E4E4153007BD530 /* FirebaseCore in Frameworks */,
+				4F3365062E4DEFD7000430B0 /* AppsFlyerLib-Static in Frameworks */,
+				4FDB89A42E4E416A007BD530 /* SVGKit in Frameworks */,
+				4FDB899F2E4E4153007BD530 /* FirebaseInAppMessaging-Beta in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +87,7 @@
 		4F02B6FA2E40CFC6008C953B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F02B6F92E40CFC6008C953B /* PlayNotePlay.app */,
+				4F02B6F92E40CFC6008C953B /* PlayXFlash.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,12 +109,17 @@
 		4F02B9092E44F431008C953B /* music */ = {
 			isa = PBXGroup;
 			children = (
+				4FDB89AD2E4E4422007BD530 /* icon.svg */,
 				4F02B87A2E425F9C008C953B /* app.swift */,
+				4F3365022E4DEF72000430B0 /* vv.swift */,
 				4F02B8882E4388DA008C953B /* views */,
 				4F02B8822E437E33008C953B /* AudioEngine.swift */,
+				4FDB89E02E4E485B007BD530 /* GoogleService-Info.plist */,
 				4F02B87E2E437E21008C953B /* ChordMatchGame.swift */,
 				4F02B87C2E437E14008C953B /* SoundService.swift */,
 				4F02B9072E44D1EE008C953B /* LevelConfiguration.swift */,
+				4FDB89AB2E4E41A7007BD530 /* PlayXFlash-Info.plist */,
+				4FDB89AA2E4E41A2007BD530 /* PlayNotePlay.entitlements */,
 			);
 			path = music;
 			sourceTree = "<group>";
@@ -94,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F02B6F82E40CFC6008C953B /* PlayNotePlay */ = {
+		4F02B6F82E40CFC6008C953B /* PlayXFlash */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F02B7042E40CFC8008C953B /* Build configuration list for PBXNativeTarget "PlayNotePlay" */;
+			buildConfigurationList = 4F02B7042E40CFC8008C953B /* Build configuration list for PBXNativeTarget "PlayXFlash" */;
 			buildPhases = (
 				4F02B6F52E40CFC6008C953B /* Sources */,
 				4F02B6F62E40CFC6008C953B /* Frameworks */,
@@ -106,11 +139,21 @@
 			);
 			dependencies = (
 			);
-			name = PlayNotePlay;
+			name = PlayXFlash;
 			packageProductDependencies = (
+				4F3365052E4DEFD7000430B0 /* AppsFlyerLib-Static */,
+				4FDB89962E4E4153007BD530 /* FirebaseAnalytics */,
+				4FDB89982E4E4153007BD530 /* FirebaseAnalyticsCore */,
+				4FDB899A2E4E4153007BD530 /* FirebaseCore */,
+				4FDB899C2E4E4153007BD530 /* FirebaseCrashlytics */,
+				4FDB899E2E4E4153007BD530 /* FirebaseInAppMessaging-Beta */,
+				4FDB89A02E4E4153007BD530 /* FirebaseMessaging */,
+				4FDB89A32E4E416A007BD530 /* SVGKit */,
+				4FDB89A52E4E416A007BD530 /* SVGKitSwift */,
+				4FDB89A82E4E4189007BD530 /* GoogleMobileAds */,
 			);
 			productName = music;
-			productReference = 4F02B6F92E40CFC6008C953B /* PlayNotePlay.app */;
+			productReference = 4F02B6F92E40CFC6008C953B /* PlayXFlash.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +172,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4F02B6F42E40CFC6008C953B /* Build configuration list for PBXProject "PlayNotePlay" */;
+			buildConfigurationList = 4F02B6F42E40CFC6008C953B /* Build configuration list for PBXProject "PlayXFlash" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,12 +181,18 @@
 			);
 			mainGroup = 4F02B6F02E40CFC6008C953B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4F3365042E4DEFD7000430B0 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+				4FDB89952E4E4153007BD530 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				4FDB89A22E4E416A007BD530 /* XCRemoteSwiftPackageReference "SVGKit" */,
+				4FDB89A72E4E4189007BD530 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4F02B6FA2E40CFC6008C953B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F02B6F82E40CFC6008C953B /* PlayNotePlay */,
+				4F02B6F82E40CFC6008C953B /* PlayXFlash */,
 			);
 		};
 /* End PBXProject section */
@@ -154,6 +203,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F02B9062E44CF0A008C953B /* Media.xcassets in Resources */,
+				4FDB89AE2E4E4422007BD530 /* icon.svg in Resources */,
+				4FDB89E12E4E485B007BD530 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +222,7 @@
 				4F02B8E22E44CB41008C953B /* LevelsHelpView.swift in Sources */,
 				4F02B8E32E44CB41008C953B /* ChallengeHelpView.swift in Sources */,
 				4F02B87F2E437E21008C953B /* ChordMatchGame.swift in Sources */,
+				4F3365032E4DEF72000430B0 /* vv.swift in Sources */,
 				4F02B9082E44D1EE008C953B /* LevelConfiguration.swift in Sources */,
 				4F02B8DF2E44B326008C953B /* OnboardingView.swift in Sources */,
 				4F02B8832E437E33008C953B /* AudioEngine.swift in Sources */,
@@ -308,11 +360,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = music/PlayNotePlay.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "music/PlayXFlash-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -323,7 +377,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = com.richarddumontpierre.play;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -344,11 +398,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = music/PlayNotePlay.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "music/PlayXFlash-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -359,7 +415,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = com.richarddumontpierre.play;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -376,7 +432,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F02B6F42E40CFC6008C953B /* Build configuration list for PBXProject "PlayNotePlay" */ = {
+		4F02B6F42E40CFC6008C953B /* Build configuration list for PBXProject "PlayXFlash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F02B7022E40CFC8008C953B /* Debug */,
@@ -385,7 +441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F02B7042E40CFC8008C953B /* Build configuration list for PBXNativeTarget "PlayNotePlay" */ = {
+		4F02B7042E40CFC8008C953B /* Build configuration list for PBXNativeTarget "PlayXFlash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F02B7052E40CFC8008C953B /* Debug */,
@@ -395,6 +451,94 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4F3365042E4DEFD7000430B0 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.2;
+			};
+		};
+		4FDB89952E4E4153007BD530 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.1.0;
+			};
+		};
+		4FDB89A22E4E416A007BD530 /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		4FDB89A72E4E4189007BD530 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4F3365052E4DEFD7000430B0 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F3365042E4DEFD7000430B0 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		4FDB89962E4E4153007BD530 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDB89952E4E4153007BD530 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		4FDB89982E4E4153007BD530 /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDB89952E4E4153007BD530 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		4FDB899A2E4E4153007BD530 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDB89952E4E4153007BD530 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		4FDB899C2E4E4153007BD530 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDB89952E4E4153007BD530 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		4FDB899E2E4E4153007BD530 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDB89952E4E4153007BD530 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		4FDB89A02E4E4153007BD530 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDB89952E4E4153007BD530 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		4FDB89A32E4E416A007BD530 /* SVGKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDB89A22E4E416A007BD530 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKit;
+		};
+		4FDB89A52E4E416A007BD530 /* SVGKitSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDB89A22E4E416A007BD530 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKitSwift;
+		};
+		4FDB89A82E4E4189007BD530 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FDB89A72E4E4189007BD530 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4F02B6F12E40CFC6008C953B /* Project object */;
 }

@@ -78,12 +78,58 @@ struct Melody {
 }
 
 
+//@main
+//struct MusicApp: App {
+//    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
+//    
+//    var body: some Scene {
+//        WindowGroup {
+//            if !hasSeenOnboarding {
+//                OnboardingView()
+//                    .preferredColorScheme(.dark)
+//            } else {
+//                MenuView()
+//                    .preferredColorScheme(.dark)
+//            }
+//        }
+//    }
+//}
+
+
 @main
-struct MusicApp: App {
-    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
+struct myApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
+    @State private var idfaPrompted: Bool = UserDefaults.standard.bool(forKey: "idfaPrompted")
+    @State private var showLoader: Bool = false
+
     var body: some Scene {
         WindowGroup {
+            Group {
+                if !idfaPrompted {
+                    IDFAPermissionView(onIDFAResponded: {
+                        UserDefaults.standard.set(true, forKey: "idfaPrompted")
+                        idfaPrompted = true
+                        showLoader = true
+                    })
+                    .preferredColorScheme(.dark)
+                } else {
+                    LoadingView()
+                        .onAppear {
+                            NotificationCenter.default.post(name: .idfaStatusUpdated, object: nil)
+                        }
+                        .preferredColorScheme(.dark)
+                }
+            }
+        }
+    }
+}
+
+struct Root: View {
+    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
+
+    var body: some View {
+        Group {
             if !hasSeenOnboarding {
                 OnboardingView()
                     .preferredColorScheme(.dark)
@@ -92,5 +138,7 @@ struct MusicApp: App {
                     .preferredColorScheme(.dark)
             }
         }
+        .preferredColorScheme(.dark)
+        .transition(.opacity)
     }
 }

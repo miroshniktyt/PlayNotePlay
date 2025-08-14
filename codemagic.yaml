@@ -11,8 +11,8 @@ workflows:
                bundle_identifier: com.richarddumontpierre.play
             vars:
               BUNDLE_ID: com.richarddumontpierre.play
-              XCODE_PROJECT: "PlayNotePlay.xcodeproj"
-              XCODE_SCHEME: "PlayNotePlay"
+              XCODE_PROJECT: "PlayXFlash.xcodeproj"
+              XCODE_SCHEME: "PlayXFlash"
               APP_STORE_APPLE_ID: 6749694449
             xcode: latest
         scripts:
